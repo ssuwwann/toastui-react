@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: suwan
+    username: suwan
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/toast?serverTimezone=Asia/Seoul&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: none
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 20MB
